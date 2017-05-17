@@ -15,3 +15,5 @@ git checkout —- readme.txt 回到最近一次git commit或git add时的状态
 git reset HEAD readme.txt 把暂存区的修改撤销掉，重新放回工作区
 rm fiel.txt 移除但可以通过checkout 恢复
 git rm fiel.txt 删除文件
+git remote add origin https://github.com/liuyulwy/LYProTest.git  本地仓库与远程关联
+git push origin master  git push -u origin master 提交到远程仓库
