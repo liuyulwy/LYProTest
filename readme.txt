@@ -4,7 +4,8 @@ git add readme.txt 添加到仓库
 git commit -m “描述” 提交到仓库
 ls -ah 查看隐藏文件
 git status 查看状态
-git diff readme.txt 查看修改
+git diff readme.txt 查看工作区与暂存区的不同 
+git diff head —- readme.txt 查看工作区 与版本库的区别
 git log 查看历史日志
 git log —pretty=oneline 简洁显示
 git reset —-hard HEAD^ 会退到上一个版本
@@ -17,4 +18,3 @@ rm fiel.txt 移除但可以通过checkout 恢复
 git rm fiel.txt 删除文件
 git remote add origin https://github.com/liuyulwy/LYProTest.git  本地仓库与远程关联
 git push origin master  git push -u origin master 提交到远程仓库
-Hello word
