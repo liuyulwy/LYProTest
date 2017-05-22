@@ -17,4 +17,4 @@ rm fiel.txt 移除但可以通过checkout 恢复
 git rm fiel.txt 删除文件
 git remote add origin https://github.com/liuyulwy/LYProTest.git  本地仓库与远程关联
 git push origin master  git push -u origin master 提交到远程仓库
-Hello
+Hello word
