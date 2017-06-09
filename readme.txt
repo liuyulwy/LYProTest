@@ -7,7 +7,7 @@ git status 查看状态
 git diff readme.txt 查看工作区与暂存区的不同 
 git diff head —- readme.txt 查看工作区 与版本库的区别
 git log 查看历史日志
-git log —pretty=oneline 简洁显示
+git log —-pretty=oneline 简洁显示
 git reset —-hard HEAD^ 会退到上一个版本
 git reset —hard 3434343 回到某个版本
 git reflog 查看您的每一次命令
