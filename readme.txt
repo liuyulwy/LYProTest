@@ -1,6 +1,12 @@
 pwd 显示目录
 git init 把这个目录变成Git可以管理的仓库
 git add readme.txt 添加到仓库
+1.  git add -A   保存所有的修改
+
+2.  git add .     保存新的添加和修改，但是不包括删除
+
+3.  git add -u   保存修改和删除，但是不包括新建文件。
+
 git commit -m “描述” 提交到仓库
 ls -ah 查看隐藏文件
 git status 查看状态

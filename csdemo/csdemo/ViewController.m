@@ -33,6 +33,9 @@
     CAShapeLayer *shapeLayer = [CAShapeLayer layer];
     shapeLayer.path = path.CGPath;
     backgroundView.layer.mask = shapeLayer;
+    
+    NSLog(@"hello git");
+    
 }
 
 
